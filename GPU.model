@@ -1,0 +1,4 @@
+from mergexp import *
+net = Network('exp', addressing==ipv4)
+n = net.node("node", metal==True, tags == contains_all("gpu"))
+experiment(net)

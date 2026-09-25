@@ -1,0 +1,4 @@
+from mergexp import *
+net = Network('exp', addressing==ipv4)
+n = net.node("node", proc.cores>=4, memory.capacity>=gb(64), disk.capacity>=gb(10), image=="2204")
+experiment(net)
