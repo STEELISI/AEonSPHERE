@@ -19,7 +19,8 @@ into each node and you can mark that node as done on userpass.txt loaded onto a 
 fail put their lines from userpass.txt into a separate file and rerun startexps and extendexps with that file.
 I suggest trying one by one. Notify us on MM if there is persistent failure.
 
-run startexpsgpu.sh and extendexpgpu.sh with gpuuserpass.txt
+run startexpsgpu.sh with gpuuserpass.txt
+run extendexpsgpu.sh with gpuuserpass.txt
 run testnodes.sh with gpuuserpass.txt and test all nodes
 
 send note to reviewers like this:
